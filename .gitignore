@@ -4,6 +4,7 @@
 # User-specific stuff
 .idea/*
 target/*
+*.jar
 
 # Sensitive or high-churn files
 .idea/**/dataSources/
