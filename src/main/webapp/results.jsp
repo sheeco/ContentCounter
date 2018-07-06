@@ -34,13 +34,13 @@
             <td>英文字数</td>
             <td>标点符号数</td>
         </tr>
-        <c:forEach items="${records }" var="record">
+        <c:forEach items="${results }" var="result">
             <tr>
-                <td>${record.title }</td>
-                <td>${record.countCharacter }</td>
-                <td>${record.countChineseCharacter}</td>
-                <td>${record.countEnglishCharacter }</td>
-                <td>${record.countPunctuation }</td>
+                <td><a href=${result.url}>${result.title }</a></td>
+                <td>${result.countCharacter }</td>
+                <td>${result.countChinese}</td>
+                <td>${result.countEnglish }</td>
+                <td>${result.countPunctuation }</td>
             </tr>
         </c:forEach>
 

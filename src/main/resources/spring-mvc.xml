@@ -30,7 +30,7 @@
         <!--<property name="mappings">-->
             <!--<props>-->
                 <!--&lt;!&ndash; 对 itemsController进行url映射&ndash;&gt;-->
-                <!--<prop key="/listQueryRecords.action">recordsController</prop>-->
+                <!--<prop key="/listCountResults.action">recordsController</prop>-->
                 <!--&lt;!&ndash;<prop key="/queryItem.action">queryController</prop>&ndash;&gt;-->
             <!--</props>-->
         <!--</property>-->
